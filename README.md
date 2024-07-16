@@ -15,7 +15,6 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 # you can change and delete init password
 
 # to apply the application.yaml to argoCd . It basically creates the app in argoCd
-
 kubectl apply -f application.yaml
 ```
 
